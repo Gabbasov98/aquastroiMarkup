@@ -1,0 +1,22 @@
+.about-tabs {
+  padding: 21px 0;
+  background-color: #f4f4f4;
+  margin-top: 40px; }
+  .about-tabs__inner {
+    display: flex;
+    align-items: center; }
+
+.about-tab {
+  height: 48px;
+  border-radius: 2px;
+  width: unset;
+  padding: 0 37px;
+  font-size: 14px;
+  font-weight: 500; }
+  .about-tab:not(:last-child) {
+    margin-right: 5px; }
+
+.about-tab--active {
+  pointer-events: none; }
+
+/*# sourceMappingURL=textpage.css.map */

@@ -1,0 +1,349 @@
+.red {
+  color: #e07b7b; }
+
+.modal__close {
+  padding: 0;
+  float: unset;
+  position: absolute;
+  top: 21px;
+  right: 21px;
+  opacity: 1;
+  z-index: 1200;
+  width: 18px;
+  height: 18px;
+  background-color: transparent; }
+  .modal__close:hover {
+    opacity: 1; }
+  .modal__close svg {
+    width: 100%;
+    height: 100%; }
+  .modal__close .cls-1 {
+    fill: #00283c; }
+
+.modal1 .modal-dialog {
+  width: 690px; }
+.modal1 .modal-content {
+  border: none; }
+.modal1 .modal-body {
+  padding: 30px 60px 40px; }
+.modal1-top {
+  height: 88px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #1455a7;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1455a7;
+  padding: 0 60px; }
+.modal1__form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px; }
+.modal1__form-group:nth-child(5), .modal1__form-group:nth-child(6) {
+  grid-column: 1/3; }
+.modal1__form-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px; }
+  .modal1__form-bottom button {
+    width: 247px;
+    height: 55px;
+    flex-shrink: 0;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-right: 34px; }
+  .modal1__form-bottom div {
+    font-size: 9px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #494949; }
+  .modal1__form-bottom a {
+    color: #1455a7; }
+.modal1__form-hint {
+  font-size: 11px;
+  font-weight: 400;
+  color: #1d1d1b;
+  margin-top: 17px; }
+.modal1 label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #1d1d1b;
+  margin-bottom: 14px;
+  display: block; }
+.modal1 input {
+  height: 43px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  width: 100%;
+  padding: 0 10px;
+  font-size: 15px;
+  line-height: 16px; }
+.modal1 .select {
+  width: 100%;
+  float: unset;
+  height: 43px;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  font-size: 15px;
+  line-height: 16px; }
+  .modal1 .select > span {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/svg/menu-arrow.svg);
+    background-size: 8px auto;
+    background-repeat: no-repeat;
+    background-position: right center;
+    font-size: 15px;
+    line-height: 16px; }
+.modal1 textarea {
+  height: 82px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  width: 100%;
+  resize: none;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 16px; }
+
+.modal2 .modal-dialog {
+  width: 550px;
+  box-shadow: 0px 11px 57px 0px rgba(0, 0, 0, 0.46); }
+.modal2 .modal-body {
+  padding: 0;
+  display: flex;
+  height: 223px; }
+.modal2__left {
+  width: 164px;
+  flex-shrink: 0;
+  background: #1455a7;
+  display: flex;
+  justify-content: center;
+  padding-top: 45px; }
+  .modal2__left img {
+    width: 70px;
+    height: 53px; }
+.modal2 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1455a7; }
+.modal2 p {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(71, 116, 138, 0.21);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #222222; }
+.modal2__right {
+  padding: 40px 45px; }
+  .modal2__right button {
+    margin-top: 24px;
+    font-size: 13px;
+    padding-bottom: 3px;
+    border-bottom: 1px dashed #1455a7;
+    font-weight: 400;
+    color: #1455a7; }
+.modal2__time {
+  display: flex;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #252525;
+  margin-top: 22px; }
+  .modal2__time svg {
+    margin-right: 12px;
+    margin-top: 2px; }
+  .modal2__time .cls-1 {
+    fill: #252525; }
+
+.modal3 .modal2__left {
+  background-color: #d7251c; }
+  .modal3 .modal2__left img {
+    width: 97px;
+    height: 96px; }
+.modal3 h2 {
+  color: #d7251c; }
+.modal3 .modal-body {
+  height: 255px; }
+
+.modal4 .modal-dialog {
+  width: 690px; }
+.modal4__close .cls-1 {
+  fill: #fff; }
+.modal4 .modal-body {
+  padding: 30px 60px 40px; }
+.modal4__top {
+  height: 124px;
+  background-color: #d7251c;
+  padding: 35px 60px;
+  background-image: url(../images/svg/callback-popup.svg);
+  background-repeat: no-repeat;
+  background-position: right 60px center;
+  background-size: 87px auto; }
+  .modal4__top h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff; }
+  .modal4__top p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px; }
+.modal4__inputs {
+  display: flex;
+  justify-content: space-between; }
+.modal4__form-group {
+  width: calc(50% - 14px);
+  position: relative; }
+.modal4 input {
+  font-size: 15px;
+  font-weight: 400;
+  color: #646464;
+  padding: 0 10px;
+  height: 49px;
+  border: 1px solid #c5c5c5;
+  width: 100%;
+  padding-top: 20px; }
+  .modal4 input:active ~ label, .modal4 input:focus ~ label {
+    font-size: 10px;
+    transform: translateY(0%);
+    top: 2px; }
+.modal4 label {
+  position: absolute;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #646464;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; }
+.modal4 .label--active {
+  font-size: 10px;
+  transform: translateY(0%);
+  top: 2px; }
+
+@media screen and (max-width: 768px) {
+  .modal__close {
+    width: 14px;
+    height: 14px;
+    right: 18px;
+    top: 25px; }
+  .modal .modal-dialog {
+    margin-left: auto;
+    margin-right: auto; }
+
+  .modal1 .modal-dialog {
+    width: calc(100% - 15px); }
+  .modal1-top {
+    padding: 0 24px;
+    font-size: 18px;
+    height: 60px; }
+  .modal1 .modal-body {
+    padding: 24px; }
+  .modal1__form-grid {
+    grid-template-columns: 1fr; }
+  .modal1__form-group:nth-child(5), .modal1__form-group:nth-child(6) {
+    grid-column: 1/2; }
+  .modal1__form-bottom {
+    margin-top: 17px;
+    display: block; }
+    .modal1__form-bottom button {
+      width: 201px;
+      height: 45px;
+      font-size: 11.5px; }
+    .modal1__form-bottom div {
+      margin-top: 16px; }
+  .modal1__form-hint {
+    margin-top: 16px; }
+  .modal1 label {
+    font-size: 12px;
+    margin-bottom: 7px;
+    font-size: 12px;
+    line-height: 100%; }
+  .modal1 input {
+    height: 33px;
+    font-size: 12px;
+    line-height: 16px; }
+  .modal1 textarea {
+    font-size: 12px;
+    line-height: 16px; }
+  .modal1 .select {
+    height: 33px;
+    font-size: 12px;
+    line-height: 16px; }
+    .modal1 .select > span {
+      font-size: 12px;
+      line-height: 16px;
+      background-size: 6px auto; }
+
+  .modal4 .modal-dialog {
+    width: calc(100% - 15px); }
+  .modal4__top {
+    padding: 18px 85px 18px 23px;
+    background-position: right 10px bottom 10px;
+    background-size: 68px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .modal4__top h2 {
+      font-size: 18px;
+      line-height: 24px; }
+    .modal4__top p {
+      font-size: 12px;
+      line-height: 16px;
+      margin-top: 11px; }
+  .modal4 .modal-body {
+    padding: 22px 23px; }
+  .modal4__inputs {
+    flex-wrap: wrap; }
+  .modal4__form-group {
+    width: 100%; }
+    .modal4__form-group:not(:last-child) {
+      margin-bottom: 18px; }
+  .modal4 input {
+    height: 44px;
+    padding-top: 23px;
+    font-size: 14px; }
+    .modal4 input:active ~ label, .modal4 input:focus ~ label {
+      font-size: 10px;
+      top: 8px; }
+  .modal4 label {
+    font-size: 14px;
+    line-height: 100%; }
+  .modal4 .label--active {
+    font-size: 10px;
+    top: 8px; } }
+@media screen and (max-width: 576px) {
+  .modal2 .modal-dialog {
+    width: calc(100% - 15px); }
+  .modal2 .modal-body {
+    height: 160px; }
+  .modal2__left {
+    display: none; }
+  .modal2__right {
+    padding: 24px; }
+    .modal2__right button {
+      font-size: 10px;
+      margin-top: 15px; }
+  .modal2 h2 {
+    font-size: 18px; }
+  .modal2 p {
+    margin-top: 20px;
+    padding-top: 16px;
+    font-size: 12px;
+    line-height: 18px; }
+  .modal2__time {
+    margin-top: 15px; }
+
+  .modal3 .modal-body {
+    height: 180px; } }
+
+/*# sourceMappingURL=popups.css.map */

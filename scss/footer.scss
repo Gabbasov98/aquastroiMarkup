@@ -1,0 +1,187 @@
+.footer {
+    background-color: #1455a7;
+    padding: 40px 0;
+    color: #d6e8f2;
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        width: calc(((100% - 1100px) / 2) + 410px);
+        left: 0;
+        top: 0;
+        background-color: #0d478f;
+        background-image: url(../images/footer_img.png);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: 2;
+    }
+    &__left {
+        margin-right: 140px;
+        flex-shrink: 0;
+    }
+    &__title {
+        margin-bottom: 28px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+    &__contacts {
+        display: flex;
+        &-left {
+            margin-right: 34px;
+        }
+        & span {
+            display: block;
+            font-size: 10px;
+            font-weight: 400;
+            color: #a2dfff;
+            margin-bottom: 10px;
+        }
+        & a {
+            display: block;
+            color: #fff;
+            &:hover {
+                color: #a2dfff;
+            }
+        }
+        & strong {
+            font-size: 13px;
+            font-weight: 400;
+            color: #ffffff;
+        }
+        &-mail {
+            margin-top: 25px;
+            & a {
+                font-size: 13px;
+            }
+        }
+        &-right {
+            & span {
+                margin-bottom: 3px;
+            }
+            & a {
+                font-size: 13px;
+                line-height: 26px;
+                font-weight: 400;
+            }
+        }
+    }
+    &__info {
+        margin-top: 40px;
+        font-size: 10px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #d9f0fc;
+    }
+    &__safe {
+        font-size: 12px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-top: 26px;
+    }
+    &__by {
+        display: block;
+        font-size: 11px;
+        font-weight: 400;
+        color: #d9f0fc;
+        margin-top: 27px;
+        & a {
+            color: #ffffff;
+        }
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        &-col {
+            width: calc(50% - 40px);
+        }
+        & a {
+            font-size: 12px;
+            line-height: 18px;
+            font-weight: 400;
+            color: #d6e8f2;
+            margin-bottom: 10px;
+            display: block;
+            &:hover {
+                color: #fff;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footer {
+        &:after {
+            width: calc(((100% - 970px) / 2) + 380px);
+        }
+        &__left {
+            margin-right: 70px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .footer {
+        padding: 30px 0 23px;
+        &::after {
+            width: 100%;
+            height: 100%;
+        }
+        &__title {
+            display: none;
+        }
+        &__right {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        &__left {
+            flex-shrink: unset;
+            margin-right: 0;
+        }
+        &__contacts {
+            & strong {
+                font-size: 12px;
+                line-height: 20px;
+                & br {
+                    display: none;
+                }
+            }
+            &-right {
+                flex-grow: 1;
+                flex-shrink: 0;
+                & a {
+                    font-size: 13px;
+                    line-height: 22px;
+                }
+            }
+        }
+        &__info {
+            margin-top: 20px;
+            font-size: 8px;
+            line-height: 14px;
+            & br {
+                display: none;
+            }
+        }
+        &__safe {
+            font-size: 11px;
+            margin-top: 19px;
+        }
+        &__by {
+            font-size: 9px;
+            margin-top: 19px;
+        }
+    }
+}
